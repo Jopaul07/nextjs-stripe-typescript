@@ -140,7 +140,7 @@ export default function SignUp({ onSubmitExt, isLoading, setIsLoading, generalEr
                 <img
                     alt="T3"
                     src="https://sandbox-next-stripe-tsc.vercel.app/images/t3-dark.svg"
-                    style={{ width: 212, height: 75 }}
+                    style={{ width: 129, height: 100 }}
                 />
 
                 <Typography variant="h3" gutterBottom color="primary" my={2}>
