@@ -54,8 +54,8 @@ const PaymentSuccess = () => {
         <Layout rightIcon={'Download Instructions for Use'}>
             <Container component="main" sx={{ flex: 1, display: "flex", flexDirection: 'column', alignItems: 'center', }}>
                 <img
-                    alt="Starstarter"
-                    src="https://pzenterprise-templates.s3.amazonaws.com/uploads/org/StarStarter-Rx-logo_400x142web.png"
+                    alt="T3"
+                    src="https://sandbox-next-stripe-tsc.vercel.app/images/t3-dark.svg"
                     style={{ position: 'absolute', top: 35, width: 212, height: 75 }}
                 />
 
@@ -146,51 +146,7 @@ const PaymentSuccess = () => {
                         label={'3. Block out 15 minutes in the day to start the game and complete your first session!'}
                     />
                 </Grid>
-                <Grid container spacing={2}
-                    sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', p: 10 }}
-                >
-                    <Grid item sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-
-                        <a
-                            href="https://apps.apple.com/us/app/id6446508277"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >
-                            <img
-                                className="applink_appstore"
-                                src="https://pzenterprise-templates.s3.amazonaws.com/uploads/org/appstore.jpeg"
-                                alt="app_store"
-                                style={{ objectFit: 'contain', height: 75 }}
-                            />
-                        </a>
-                    </Grid>
-
-                    <Grid item sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <a
-                            href="https://play.google.com/store/apps/details?id=com.arcadetherapeutics.starstarterrx"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >
-                            <img
-                                className="applink_playstore"
-                                src="https://pzenterprise-templates.s3.amazonaws.com/uploads/org/gooleplay.jpeg"
-                                alt="play_store"
-                                style={{ objectFit: 'contain', height: 75 }}
-                            />
-                        </a>
-                    </Grid>
-                    <Grid item sx={{ display: { xs: 'block', sm: 'none' } }}>
-                        <Typography
-                            align="center"
-                            color="text.primary"
-                            sx={{ fontSize: 10 }}
-                        >
-                            <Link color="inherit" href="https://arcadetherapeutics.com/wp-content/uploads/2023/06/StarStarter-Rx-Instructions-for-Use-June-2023.pdf">
-                                Download Instructions for Use
-                            </Link>
-                        </Typography>
-                    </Grid>
-                </Grid>
+                
                 <Grid container spacing={2} sx={{ display: 'flex', flexDirection: 'row', }} >
                     <Grid item xs={12}>
                         <Box sx={{ px: { xs: 2, md: 10 }, display: 'flex', justifyContent: "center", alignItems: "center", }}>

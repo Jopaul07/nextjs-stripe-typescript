@@ -46,14 +46,13 @@ type SignUpProps = {
 function DataConsent(props: any) {
     return (
         <Typography variant="caption" color="text.primary" align="left" {...props}>
-            {'I agree to StarStarter Rx '}
-            <Link color="text.primary" href="https://arcadetherapeutics.com/legal/" target="_blank" rel="noopener noreferrer">
+            {'I agree to the '}
+            <Link color="text.primary" target="_blank" rel="noopener noreferrer">
                 terms of use
             </Link > {' and '}
-            <Link color="text.primary" href="https://arcadetherapeutics.com/legal/" target="_blank" rel="noopener noreferrer">
+            <Link color="text.primary" target="_blank" rel="noopener noreferrer">
                 privacy policy
             </Link>
-            {', which may include that StarStarter Rx may share my data with my healthcare provider or de-identified data with my employer.'}
         </Typography>
     );
 }
@@ -61,7 +60,7 @@ function DataConsent(props: any) {
 function PrivacyConsent(props: any) {
     return (
         <Typography variant="caption" color="text.primary" align="left" {...props}>
-            {'I acknowledge the recommendation to consult with a healthcare provider before starting.'}
+            {'I acknowledge that I\'ve gone through the terms and conditions.'}
         </Typography>
     );
 }
@@ -139,8 +138,8 @@ export default function SignUp({ onSubmitExt, isLoading, setIsLoading, generalEr
                 elevation={0}
             >
                 <img
-                    alt="Starstarter"
-                    src="https://pzenterprise-templates.s3.amazonaws.com/uploads/org/StarStarter-Rx-logo_400x142web.png"
+                    alt="T3"
+                    src="https://sandbox-next-stripe-tsc.vercel.app/images/t3-dark.svg"
                     style={{ width: 212, height: 75 }}
                 />
 

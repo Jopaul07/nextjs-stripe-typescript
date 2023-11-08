@@ -79,7 +79,7 @@ export default function PreviewPage() {
   };
   return (
     <Layout
-      mainHeading={'90-day Access to StarStarter Rx for $49.99'}
+      mainHeading={'90-day Access for $49.99'}
       subHeading={'Download Instructions for Use'}
     >
       <SignUp
