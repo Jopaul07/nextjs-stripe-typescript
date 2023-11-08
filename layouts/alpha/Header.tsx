@@ -44,13 +44,13 @@ export default function Header({ mainHeading, subHeading, rightIcon }: HeaderPro
                         position: 'absolute', right: { sm: 10, md: 50 }, maxWidth: { sm: '25vh', md: '50vh' }, display: { xs: 'none', sm: 'block', md: 'block' }
                     }}
                 >
-                    <Link color="inherit" href="https://arcadetherapeutics.com/wp-content/uploads/2023/06/StarStarter-Rx-Instructions-for-Use-June-2023.pdf">
+                    <Link color="inherit">
                         {rightIcon}
                     </Link>
                 </Typography>
             </Toolbar>
             <Typography variant="subtitle1" align="center" sx={{ mb: 2, }}>
-                <Link color="inherit" href="https://arcadetherapeutics.com/wp-content/uploads/2023/06/StarStarter-Rx-Instructions-for-Use-June-2023.pdf">
+                <Link color="inherit">
                     {subHeading}
                 </Link>
             </Typography>

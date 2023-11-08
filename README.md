@@ -4,13 +4,19 @@ This is a really simple project that shows the usage of Next.js with TypeScript.
 
 ## Demo
 
-- Live demo: https://starstarterrx.vercel.app
+- Live demo: https://next-stripe-tsc.vercel.app
 
 The demo is running in test mode -- use `4242424242424242` as a test card number with any CVC + future expiration date.
 
 Use the `4000000000003220` test card number to trigger a 3D Secure challenge flow.
 
 Read more about testing on Stripe at https://stripe.com/docs/testing.
+
+## Run this locally
+
+After running `npm i` executing
+`npm run dev` will start the application at port 3000.
+http://localhost:3000
 
 ## Notes
 
@@ -19,4 +25,5 @@ When we run `next dev` the next time, Next.js will start looking for any `.ts` o
 Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
 
 A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+
 # nextjs-stripe-typescript
