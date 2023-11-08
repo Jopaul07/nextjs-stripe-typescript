@@ -16,7 +16,7 @@ const ContentSecurityPolicy = `
     default-src 'self';
     script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com;
     style-src 'self' 'unsafe-inline';
-    img-src 'self' https://pzenterprise-templates.s3.amazonaws.com https://generation-sessions.s3.amazonaws.com data:;
+    img-src 'self' https://sandbox-next-stripe-tsc.vercel.app https://generation-sessions.s3.amazonaws.com data:;
     media-src 'none';
     connect-src 'self' https://cognito-idp.us-east-1.amazonaws.com;
     font-src 'self';
