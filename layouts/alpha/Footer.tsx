@@ -7,7 +7,7 @@ import Link from '@mui/material/Link';
 function Copyright() {
   return (
     <Typography variant="subtitle1" color="text.p" align="center">
-      Arcade Therapeutics {new Date().getFullYear()} | {'  '}
+      Next-Ts {new Date().getFullYear()} | {'  '}
       <Link color="inherit" href="https://mui.com/">
         Legal
       </Link>
